@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
+pandas = "*"
+sqlalchemy = "*"
+oauthlib = "*"
+python-dotenv = "*"
+requests-oauthlib = "*"
+openpyxl = "*"
+qgrid = "*"
+asyncio = "*"
+matplotlib = "*"
+simple-salesforce = "*"
+tqdm = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10.1"
